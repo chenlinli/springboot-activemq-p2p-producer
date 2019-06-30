@@ -1,0 +1,10 @@
+spring:
+  activemq:
+  #activemq地址
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+#自定义队列
+myQueueSB: email-queue
+server:
+  port: 8888
